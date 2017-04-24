@@ -11,4 +11,4 @@ def set_diff(a,b):
 	return [la for la in a if la not in b]
 
 def cart_prod(a,b):
-	pass
+	return [(a[i],b[i]) for i in range(len(a))]
