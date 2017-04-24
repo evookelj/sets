@@ -21,4 +21,4 @@ print "c = union [1,3,5,7,9] and [0,2,4,6,8] = %s"%(str(c))
 d = intersect(b,c)
 print "d = intersection [0,2,4,6,8] and c = %s"%(str(d))
 
-e = 
+#e = 
