@@ -4,11 +4,11 @@ def union(a,b):
 def intersect(a,b):
 	return [la for la in a if la in b]
 
-def set_diff(a,b):
+def sym_diff(a,b):
 	return [la for la in a if la not in b] + [lb for lb in b if lb not in a]
 
-def sym_diff(a,b):
-	pass
+def set_diff(a,b):
+	return [la for la in a if la not in b]
 
 def cart_prod(a,b):
 	pass
