@@ -5,7 +5,7 @@ def intersect(a,b):
 	return [la for la in a if la in b]
 
 def set_diff(a,b):
-	return [la for la in a if la not in b] + [lb for lb in b if lb not in a]
+	pass
 
 def sym_diff(a,b):
 	pass
